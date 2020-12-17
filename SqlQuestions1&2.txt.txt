@@ -1,0 +1,9 @@
+
+Question 2;
+
+select customer.id,customer.name from customer order by customer.name desc ,customer.id asc 
+
+
+Question 3
+
+select id,name,marks, case when marks >90 then 'A+' marks >70 then 'A' marks >50 then 'B' marks >= 40 then 'C' marks <40  then 'Fail' end as grade from students 
